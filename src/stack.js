@@ -1,4 +1,4 @@
-const { NotImplementedError } = require('../lib');
+const { NotImplementedError } = require('../lib/errors');
 
 /**
  * Implement the Stack with a given interface via array.
@@ -32,3 +32,4 @@ class Stack {
 module.exports = {
   Stack,
 };
+
